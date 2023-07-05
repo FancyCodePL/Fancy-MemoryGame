@@ -1,0 +1,146 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600&display=swap');
+
+/* * */
+* {
+  box-sizing: border-box;
+  user-select: none;
+  -webkit-user-drag: none;
+  
+}
+
+body{
+  /* background-color: rgb(18, 25, 34); */
+  overflow: hidden;
+}
+
+.hack-container{
+  position: absolute;
+  width: 70vw;
+  height: 42vw;
+  background: linear-gradient(149deg, #121313 0%, #222625 100%);
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.header-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #FFF;
+  text-align: center;
+  font-size: 1.8vw;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 1vw;
+}
+
+.math-count{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #FFF;
+  text-align: center;
+  font-size: 1.5vw;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.math-container{
+  position: absolute;
+  border-radius: 0.5vw;
+  background: linear-gradient(152deg, #171818 0%, #222426 100%);
+  width: 55vw;
+  height: 15vw;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.math {
+  color: rgba(255, 255, 255, 0.13);
+  text-align: center;
+  font-size: 8.5vw;
+  font-family: Poppins;
+  font-weight: 700;
+  margin-top: 1.5vw;
+}
+
+.time{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #FFF;
+  text-align: center;
+  font-size: 1.5vw;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 25.5vw;
+}
+
+.progbar{
+  position: absolute;
+  width: 35vw;
+  height: 24px;
+  border-radius: 0.5vw;
+  background: #171818;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.inputodp{
+  position: absolute;
+  color: white;
+  text-align: center;
+  font-size: 1.5vw;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-radius: 0.5vw;
+  border: 0.1vw solid #00ffaa;
+  background: #171818;
+  left: 50%;
+  transform: translate(-50%);
+  margin-top: 3vw;
+  width: 35vw;
+  height: 4vw;
+}
+
+textarea:focus, input:focus{
+  outline: none;
+}
+
+.fill{
+  border-radius: 0.5vw;
+  background: #00ffaa;
+  height: 100%;
+  width: 50%
+}
+
+.srodek{
+  position: absolute;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 3vw;
+  font-family: Poppins;
+  font-weight: 700;
+  margin-top: 1.5vw;
+  left: 50%;
+  top: 30%;
+  transform: translate(-50%, -30%);
+}
+
+#srodek{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
