@@ -1,5 +1,5 @@
 # Fancy-MemoryGame
-###  ![s][logo] Math minigame for Fivem
+###  ![s][logo] Memory minigame for Fivem
 
 ```lua
     local success = exports['fancy_memorygame']:StartGame()
